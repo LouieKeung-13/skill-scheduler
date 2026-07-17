@@ -1,0 +1,125 @@
+{
+  "version": "1.0",
+  "skills": {
+    "docx-editor": {
+      "id": "docx-editor",
+      "name": "Document Editor",
+      "description": "创建和编辑 Word 文档，支持富文本、表格和图片",
+      "category": "productivity",
+      "triggers": ["文档", "编辑文档", "创建文档", "word", "docx"],
+      "confidence_threshold": 0.2,
+      "requires_setup": false,
+      "setup_notes": null
+    },
+    "pdf-processor": {
+      "id": "pdf-processor",
+      "name": "PDF Processor",
+      "description": "提取文本、合并页面、转换格式、填写 PDF 表单",
+      "category": "productivity",
+      "triggers": ["pdf", "合并pdf", "提取文本", "处理pdf", "pdf编辑"],
+      "confidence_threshold": 0.2,
+      "requires_setup": false,
+      "setup_notes": null
+    },
+    "xlsx-analyzer": {
+      "id": "xlsx-analyzer",
+      "name": "Spreadsheet Analyzer",
+      "description": "解析 Excel 文件，生成图表，执行数据分析和透视表",
+      "category": "productivity",
+      "triggers": ["excel", "表格分析", "数据透视", "xlsx", "整理表格"],
+      "confidence_threshold": 0.2,
+      "requires_setup": false,
+      "setup_notes": null
+    },
+    "web-scraping-tool": {
+      "id": "web-scraping-tool",
+      "name": "Web Scraper",
+      "description": "从网页提取结构化数据，处理动态内容和分页",
+      "category": "dev-tools",
+      "triggers": ["网页抓取", "提取数据", "爬取", "scrape", "crawl"],
+      "confidence_threshold": 0.2,
+      "requires_setup": true,
+      "setup_notes": "Requires browser automation dependency"
+    },
+    "code-reviewer": {
+      "id": "code-reviewer",
+      "name": "Code Reviewer",
+      "description": "分析代码质量，检测 bug，跨语言提供改进建议",
+      "category": "dev-tools",
+      "triggers": ["代码审查", "debug", "代码评审", "lint", "refactor"],
+      "confidence_threshold": 0.2,
+      "requires_setup": false,
+      "setup_notes": null
+    },
+    "image-generator": {
+      "id": "image-generator",
+      "name": "Image Generator",
+      "description": "通过文字描述生成图片，支持多种 AI 模型和风格控制",
+      "category": "media-tools",
+      "triggers": ["生成图片", "文生图", "画图", "插画", "ai art"],
+      "confidence_threshold": 0.2,
+      "requires_setup": true,
+      "setup_notes": "Requires API key configuration for image generation provider"
+    },
+    "video-generator": {
+      "id": "video-generator",
+      "name": "Video Generator",
+      "description": "根据文字描述生成短视频片段，支持动作和场景控制",
+      "category": "media-tools",
+      "triggers": ["视频生成", "文生视频", "动画", "生成视频", "ai视频"],
+      "confidence_threshold": 0.2,
+      "requires_setup": true,
+      "setup_notes": "Requires API key; video generation may take longer than image"
+    },
+    "diagram-maker": {
+      "id": "diagram-maker",
+      "name": "Diagram Maker",
+      "description": "创建流程图、时序图、架构图和思维导图",
+      "category": "media-tools",
+      "triggers": ["流程图", "架构图", "思维导图", "sequence diagram", "diagram"],
+      "confidence_threshold": 0.2,
+      "requires_setup": false,
+      "setup_notes": null
+    },
+    "presentation-builder": {
+      "id": "presentation-builder",
+      "name": "Presentation Builder",
+      "description": "根据大纲自动生成幻灯片，支持自动布局和主题选择",
+      "category": "content-gen",
+      "triggers": ["幻灯片", "做ppt", "制作PPT", "演示文稿", "pptx"],
+      "confidence_threshold": 0.2,
+      "requires_setup": false,
+      "setup_notes": null
+    },
+    "translator": {
+      "id": "translator",
+      "name": "Translator",
+      "description": "多模式翻译（快翻/精翻/润色），支持术语表和风格预设",
+      "category": "content-gen",
+      "triggers": ["翻译", "精翻", "快翻", "多语言", "中英互译"],
+      "confidence_threshold": 0.2,
+      "requires_setup": true,
+      "setup_notes": "First-time setup required for target language and style preferences"
+    },
+    "url-to-markdown": {
+      "id": "url-to-markdown",
+      "name": "URL to Markdown",
+      "description": "将任意网页 URL 转换为干净的 Markdown 格式",
+      "category": "dev-tools",
+      "triggers": ["网页转md", "网页转markdown", "链接转md", "convert url"],
+      "confidence_threshold": 0.2,
+      "requires_setup": false,
+      "setup_notes": null
+    },
+    "music-composer": {
+      "id": "music-composer",
+      "name": "Music Composer",
+      "description": "根据文字描述生成音乐作品，支持流派和情绪控制",
+      "category": "media-tools",
+      "triggers": ["生成音乐", "音乐创作", "作曲", "compose music", "ai音乐"],
+      "confidence_threshold": 0.2,
+      "requires_setup": true,
+      "setup_notes": "Requires audio generation API key"
+    }
+  }
+}

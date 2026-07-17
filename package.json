@@ -1,0 +1,41 @@
+{
+  "name": "skill-scheduler",
+  "version": "1.0.0",
+  "description": "通用型智能调度框架。根据用户请求自动匹配最合适的技能，展示候选列表供用户选择，确认后动态加载执行。",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./adapters": {
+      "import": "./dist/adapters/index.js",
+      "types": "./dist/adapters/index.d.ts"
+    }
+  },
+  "bin": {
+    "skill-scheduler": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "skill",
+    "scheduler",
+    "dispatcher",
+    "router",
+    "agent-tools"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.0.0"
+  }
+}
