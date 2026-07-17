@@ -248,3 +248,10 @@ skill-scheduler/
 ## License
 
 MIT
+
+---
+
+
+*Compiled by LouieKeung · 2026 · Dynamic Token Compression Project*
+
+For more detailed information, please send an email to: markdlouis1995@gmail.com
